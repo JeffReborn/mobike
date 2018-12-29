@@ -1,0 +1,334 @@
+.md{
+    width: 1080px;
+    margin: 0 auto;
+}
+html,body,.banner{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    height: 100%;
+}
+.swiper-slide{
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    width: 100%;
+    height: 100%;
+}
+
+/*.top_bg{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: url("../images/bg2.jpg") center center no-repeat;*/
+    /*background-size: cover;*/
+    /*animation: bg_trans 21s infinite linear ;*/
+    /*animation-delay: 1s;*/
+/*}*/
+/*@keyframes bg_trans {*/
+    /*0%{*/
+        /*background: url("../images/bg2.jpg") center center  no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*17%{*/
+        /*background: url("../images/bg3.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*34%{*/
+        /*background: url("../images/bg4.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+
+    /*}*/
+    /*51%{*/
+        /*background: url("../images/bg5.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*67%{*/
+        /*background: url("../images/bg6.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*84%{*/
+        /*background: url("../images/bg1.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*100%{*/
+        /*background: url("../images/bg2.jpg") center center no-repeat;*/
+        /*background-size: cover;*/
+    /*}*/
+/*}*/
+/*@keyframes slogan_trans {*/
+    /*0%{*/
+        /*color: black;*/
+    /*}*/
+    /*17%{*/
+        /*color: white;*/
+    /*}*/
+    /*34%{*/
+        /*color: black;*/
+
+    /*}*/
+    /*51%{*/
+      /*color: white;*/
+    /*}*/
+
+    /*84%{*/
+        /*color: white;*/
+    /*}*/
+    /*100%{*/
+        /*color: black;*/
+    /*}*/
+/*}*/
+.top{
+    position: relative;
+}
+.logo{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    left: 192px;
+    top: 18px;
+}
+.top_right{
+    position: absolute;
+    top: 26px;
+    right: 185px;
+}
+.top_right li{
+    float: right;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin: 0 0 0 50px;
+}
+.top_right li a{
+    color: white;
+}
+.slogan{
+    font-size: 600%;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 37%;
+    left: 135px;
+    /*animation: slogan_trans 21s infinite ease;*/
+
+    /*animation-delay: 1s;*/
+}
+.logo,.top_right,.slogan,.slogan_bottom{
+    z-index: 9999;
+}
+.slogan_bottom{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(88,86,84,0.6);
+    border-radius: 6px;
+    position: absolute;
+    left: 135px;
+    top: 70%;
+}
+.slogan_bottom a{
+    display: block;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0 0 0;
+
+}
+.nav_bottom{
+    width: 100%;
+
+}
+.nav_bottom li{
+    float: left;
+    width: 25%;
+    border-top: 1px solid white;
+}
+.nav_bottom li a{
+    display: block;
+    height: 260px;
+}
+.nav_bottom li:nth-child(1) a{
+     background: url("../images/btm_1.jpg") center center;
+     background-size: cover;
+    border-right: 1px solid white;
+ }
+.nav_bottom li:nth-child(2) a{
+    background: url("../images/btm_2.jpg") center center;
+    background-size: cover;
+    border-right: 1px solid white;
+}
+.nav_bottom li:nth-child(3) a{
+    background: url("../images/btm_3.jpg") center center;
+    background-size: cover;
+    border-right: 1px solid white;
+}
+.nav_bottom li:nth-child(4) a{
+    background: url("../images/btm_4.jpg") center center;
+    background-size: cover;
+}
+.nav_bottom li a p{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.bottom{
+    height: 100%;
+}
+.Item_bottom{
+
+    height: 142px;
+
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.Item_bottom li:nth-child(1),
+.Item_bottom li:nth-child(2),
+.Item_bottom li:nth-child(3){
+    float: left;
+    width: 33.3%;
+    padding: 45px 0;
+}
+.rp_center{
+    margin: 0 auto;
+}
+.icon_wechat,.icon_rp,.icon_credit{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.icon_wechat{
+
+    background: url("../images/icon-wechat.png") center center no-repeat;
+    background-size: contain;
+}
+.icon_rp{
+    background: url("../images/icon-rp.png") center center no-repeat;
+    background-size: contain;
+}
+.icon_credit{
+    background: url("../images/icon-credit.png") center center no-repeat;
+    background-size: contain;
+}
+.Item_bottom h2{
+
+    font-size: 16px;
+    font-weight: 400;
+}
+.Item_bottom p{
+
+    font-size: 16px;
+    font-weight: 300;
+}
+.mobike_bottom{
+    width: 1080px;
+    height: 245px;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+}
+.mobike_bottom_left{
+    position: relative;
+}
+.mobike_bottom_left a{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background: url("../images/mobike_logo.png") center center no-repeat;
+    background-size: contain;
+    margin: 30px 0px 18px 0px;
+}
+.mobike_bottom_left p{
+    margin-bottom: 17px;
+    font-size: 15px;
+}
+.mobike_bottom_left1,.mobike_bottom_left2,
+.mobike_bottom_left3,.mobike_bottom_left4{
+    float: right;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 12px;
+}
+.mobike_bottom_left4{
+    right: 51px;
+}
+.mobike_bottom_left3{
+    right: 203px;
+}
+.mobike_bottom_left2{
+    right: 402px;
+}
+.mobike_bottom_left1{
+    right: 525px;
+}
+.mobike_bottom_left li{
+    margin: 20px 0 -10px 0;
+}
+.footer_line{
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+}
+.footer{
+    width: 1080px;
+    height: 150px;
+
+    margin: 0 auto;
+    position: relative;
+ }
+.icon_beian{
+    margin: 55px 5px -4px 5px;
+}
+.footer_p{
+    margin-top: 11px;
+}
+.footer p{
+    color: #aaa;
+
+}
+.footer_right{
+    width: 40px;
+    height: 40px;
+    background: url("../images/foot_right.jpg") center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 60px;
+    right: 43px;
+}
+@media screen  and (min-width: 641px) and (max-width: 1080px) {
+    .md{
+        width: 100%
+    }
+    .top_right{
+        display: none;
+    }
+    .nav_bottom li{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .md{
+        width: 100%;
+    }
+    .top_right{
+        display: none;
+    }
+    .nav_bottom li{
+        width: 100%;
+    }
+    .Item_bottom li{
+        width: 100%;
+    }
+}
+
